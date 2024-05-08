@@ -21,7 +21,7 @@ def executeFunction (option):
 	elif option == 8:
 		print("TO BE IMPLEMENTED...")
 	elif option == 9:
-		print("TO BE IMPLEMENTED...")
+		getTextWords.execute()
 	elif option == 0:
 		return True
 	return False
