@@ -8,7 +8,7 @@ def executeFunction (option):
 		print("TO BE IMPLEMENTED...")
 	elif option == 3:
 		number = int(input("Enter a number: "))
-		result = menu.calculateFactorial(number)
+		result = factorial.factorial(number)
 		print(f"The factorial of {number} is {result}")
 	elif option == 4:
 		print("TO BE IMPLEMENTED...")

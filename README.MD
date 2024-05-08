@@ -6,7 +6,7 @@ Los estudiantes deberán agruparse de a dos o tres integrantes. Luego, deberán 
 
 - [ ] Calcular el promedio de un listado de valores.
 - [ ] Encontrar el valor máximo dentro de un listado de valores.
-- [ ] Obtener el factorial de un número según un input dado.
+- [x] Obtener el factorial de un número según un input dado.
 - [ ] Calcular el área de un círculo dado el radio correspondiente.
 - [ ] Comprobar si el número entregado por input es primo.
 - [ ] Comprobar si una cadena de caracteres es un palíndromo.
