@@ -22,3 +22,9 @@ Cada una de estas funcionalidades debe imprimir su resultado por consola en ingl
 3. Se debe generar una función execute en dicho archivo donde desarrollará el problema asignado.
 4. Se debe usar la función execute en el código principal (`main.py`).
 5. Probar la aplicación y verificar que todo este funcionando correctamente.
+
+# Ejecución
+Para iniciar la aplicación, debe ejecutar lo siguiente en la linea de comandos:
+```bash
+$ python3 src/main.py
+```
