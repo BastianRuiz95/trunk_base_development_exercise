@@ -1,9 +1,15 @@
-def calcular_promedio(valores):
+def calculate_average(values):
     try:
-        if len(valores) == 0:
+        if len(values) == 0:
             return 0
+        total = sum(values)
+        if all(isinstance(x, (int, float)) for x in values):
+            return total / len(values)
+        else:
+            raise ValueError("List must contain only numbers")
     except TypeError:
-        print("Error: Lista vacía")
+        print("Error: empty list")
         return 0
-    total = sum(valores)
-    return total / len(valores)
+    except ValueError as e:
+        print("Error:", e)
+        return 0
