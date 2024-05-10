@@ -1,11 +1,11 @@
 from functionalities import *
-from functionalities.calculateAverage import calculate_average
+from functionalities.calculateAverage import calculateAverage
 # Execute a functionality. Return True if the user select option 0
 def executeFunction (option):
 	if option == 1:
 		print("TO BE IMPLEMENTED...")
-		valores = []
-		promedio = calculate_average(valores)
+		valores = ['a',1,1,2]
+		promedio = calculateAverage(valores)
 		print("El promedio de la lista es:", promedio)
 	elif option == 2:
 		print("TO BE IMPLEMENTED...")
