@@ -2,5 +2,9 @@ def getMaxValue(list):
     return max(list)
 
 def execute():
-    list = [1, 2, 3, 4, 5]
+    valores = input("Enter values separated by '-' (example:1-2-3...):")
+    partes = valores.split("-")
+    list = []
+    for parte in partes:
+        list.append(int(parte))
     print("The max value is:",getMaxValue(list))
