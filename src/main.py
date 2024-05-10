@@ -4,7 +4,7 @@ from functionalities.calculateAverage import calculate_average
 def executeFunction (option):
 	if option == 1:
 		print("TO BE IMPLEMENTED...")
-		valores = [1,1,1,1,1]
+		valores = []
 		promedio = calculate_average(valores)
 		print("El promedio de la lista es:", promedio)
 	elif option == 2:
