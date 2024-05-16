@@ -13,7 +13,7 @@ def executeFunction (option):
 	elif option == 5:
 		print("TO BE IMPLEMENTED...")
 	elif option == 6:
-		print("TO BE IMPLEMENTED...")
+		checkPalindrome.execute()
 	elif option == 7:
 		print("TO BE IMPLEMENTED...")
 	elif option == 8:
